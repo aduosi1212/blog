@@ -28,15 +28,3 @@ tag: ["commands"]
     | col 3 is      | right-aligned | $1600 |
     | col 2 is      | centered      |   $12 |
     | zebra stripes | are neat      |    $1 |
-
-'
-{
-	UE_LOG(LogOnline, Log, TEXT("Amazon Shutdown!"));
-
-	FOnlineSubsystemModule* OSS = FModuleManager::GetModulePtr<FOnlineSubsystemModule>("OnlineSubsystem");
-	if(OSS) OSS->UnregisterPlatformService(AMAZONSERVICES_SUBSYSTEM);
-
-	delete AmazonServicesFactory;
-	AmazonServicesFactory = NULL;
-}'
-###
