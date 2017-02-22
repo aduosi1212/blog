@@ -27,9 +27,9 @@ FB:
   comments :
     provider : duoshuo
     duoshuo:
-        short_name : aduosi1212
+        short_name : athos
     disqus :
-        short_name : aduosi1212
+        short_name : athos
 
 gems: [jekyll-paginate]
 
