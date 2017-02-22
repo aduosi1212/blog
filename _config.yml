@@ -32,3 +32,5 @@ FB:
         short_name : athos
 
 gems: [jekyll-paginate]
+
+theme: jekyll-theme-cayman
