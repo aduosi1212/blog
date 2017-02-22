@@ -22,3 +22,21 @@ tag: ["commands"]
       <source id="ogv" src="http://media.w3.org/2010/05/sintel/trailer.ogv" type="video/ogg">
       <p>Your user agent does not support the HTML5 Video element.</p>
     </video>
+
+    | Tables        | Are           | Cool  |
+    | ------------- |:-------------:| -----:|
+    | col 3 is      | right-aligned | $1600 |
+    | col 2 is      | centered      |   $12 |
+    | zebra stripes | are neat      |    $1 |
+
+'
+{
+	UE_LOG(LogOnline, Log, TEXT("Amazon Shutdown!"));
+
+	FOnlineSubsystemModule* OSS = FModuleManager::GetModulePtr<FOnlineSubsystemModule>("OnlineSubsystem");
+	if(OSS) OSS->UnregisterPlatformService(AMAZONSERVICES_SUBSYSTEM);
+
+	delete AmazonServicesFactory;
+	AmazonServicesFactory = NULL;
+}'
+###
