@@ -1,15 +1,15 @@
 # Site settings
-name: Lolizepelin
-email: lolizepelin@gmail.com
-author: gcy
-url: http://www.lolizeppelin.com
+name: aduosi1212
+email: aduosi1212@hotmail.com
+author: lqw
+url: https://github.com/aduosi1212/github.io
 resume_site: about
-github: https://github.com/lolizeppelin/
+github: https://github.com/aduosi1212/
 baseurl: ""
 description: "如果上帝存在,那么一切都是注定的.如果上帝不存在,我们就是上帝"
-meta_description: GCY
-motto: Lolizeppelin's Blog
-banner: gcy
+meta_description: LQW
+motto: Athos's Blog
+banner: lqw
 
 # permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
@@ -17,7 +17,7 @@ paginate: 10
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
-github_username: lolizeppelin
+github_username: aduosi1212
 highlighter: rouge
 
 # Build settings
@@ -25,10 +25,10 @@ markdown: kramdown
 
 FB:
   comments :
-    provider : lolizepelin
+    provider : athos
     duoshuo:
-        short_name : lolizepelin
+        short_name : athos
     disqus :
-        short_name : lolizepelin
+        short_name : athos
 
 gems: [jekyll-paginate]
