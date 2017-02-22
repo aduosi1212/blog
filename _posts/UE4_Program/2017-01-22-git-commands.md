@@ -10,5 +10,10 @@ tag: ["commands"]
 * content
 {:toc}
 
-一些常用的git命令：
-1. clone： git clone [url] [repository]
+# 一些常用的git命令：
+## 1. clone： git clone [url] [repository]
+> 这里是引用
+
+[Baidu](www.baidu.com)
+
+<iframe height=498 width=510 src="http://player.youku.com/embed/XNjcyMDU4Njg0">
