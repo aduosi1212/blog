@@ -1,0 +1,34 @@
+# Site settings
+name: Lolizepelin
+email: lolizepelin@gmail.com
+author: gcy
+url: http://www.lolizeppelin.com
+resume_site: about
+github: https://github.com/lolizeppelin/
+baseurl: ""
+description: "如果上帝存在,那么一切都是注定的.如果上帝不存在,我们就是上帝"
+meta_description: GCY
+motto: Lolizeppelin's Blog
+banner: gcy
+
+# permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: lolizeppelin
+highlighter: rouge
+
+# Build settings
+markdown: kramdown
+
+FB:
+  comments :
+    provider : lolizepelin
+    duoshuo:
+        short_name : lolizepelin
+    disqus :
+        short_name : lolizepelin
+
+gems: [jekyll-paginate]
