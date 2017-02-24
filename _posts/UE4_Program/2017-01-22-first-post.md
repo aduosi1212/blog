@@ -14,5 +14,21 @@ dns日志
 
     no address range available for DHCP request via eth3
 
-网上搜索回复都是子网设置问题,看了半天配置文件没看出问题,配置文件改来改去也没发解决,最后只能硬着头皮读dnsmasq的源码然后调试了
-这个是我第一个文件，只是测试用的，好了再说
+    > 这里是引用
+
+    [Baidu](www.baidu.com)
+
+    <video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
+          <source id="mp4" src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+          <source id="webm" src="http://media.w3.org/2010/05/sintel/trailer.webm" type="video/webm">
+          <source id="ogv" src="http://media.w3.org/2010/05/sintel/trailer.ogv" type="video/ogg">
+          <p>Your user agent does not support the HTML5 Video element.</p>
+        </video>
+
+        | Tables        | Are           | Cool  |
+        | ------------- |:-------------:| -----:|
+        | col 3 is      | right-aligned | $1600 |
+        | col 2 is      | centered      |   $12 |
+        | zebra stripes | are neat      |    $1 |
+
+    - 下划线测试
