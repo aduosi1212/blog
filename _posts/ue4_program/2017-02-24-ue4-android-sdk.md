@@ -194,4 +194,6 @@ if (JNIEnv* Env = FAndroidApplication::GetJavaEnv())
 }
 ```
 
-### 暂时理解到虚幻4的sdk接入流程和内容基本如上。
+----
+
+*暂时理解到虚幻4的sdk接入流程和内容基本如上。*
