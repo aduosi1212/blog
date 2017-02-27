@@ -8,7 +8,8 @@ tag: ["android", "sdk"]
 * content
 {:toc}
 
-### 虚幻4中安卓sdk的接入, 可以使用 APL (Android Programming Language) 进行第三方库的接入，首先创建一个NAME_APL.XML 文件，该文件包括了库文件的拷贝、权限的写入、activity java文件的修改和添加等一系列android打包和接口修改的内容。不再需要手动去修改代码或者Java层的文件和代码调用接口。
+虚幻4中安卓sdk的接入, 可以使用 APL (Android Programming Language) 进行第三方库的接入，首先创建一个NAME_APL.XML 文件，该文件包括了库文件的拷贝、权限的写入、activity java文件的修改和添加等一系列android打包和接口修改的内容。不再需要手动去修改代码或者Java层的文件和代码调用接口。
+
 #### 1.创建一个插件并在插件Source目录下创建一个NAME_APL.XML文件，在该插件模块Name.Build.cs文件中调用如下：
 
 ```js
