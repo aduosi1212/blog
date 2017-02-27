@@ -165,7 +165,7 @@ PrivateIncludePathModuleNames.AddRange(new string[] { "PluginModuleName" });
 ```
 
 #### 4.虚幻4中jni的接口调用
-```js
+```c++
 
 if (JNIEnv* Env = FAndroidApplication::GetJavaEnv())
 {
