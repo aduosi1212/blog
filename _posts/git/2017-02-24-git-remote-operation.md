@@ -8,7 +8,7 @@ tag: ["commands"]
 * content
 {:toc}
 
-### 一. clone
+### 一. git clone
 从远程主机克隆一个版本库，这时就要用到git clone命令。   
 #### 1.git clone [版本库的网址]  
 例子：git clone https://github.com/jquery/jquery.git  
@@ -32,7 +32,7 @@ SSH协议还有另一种写法:
 git clone [user@]example.com:path/to/repo.git/
 ```
 
-### 二. remote
+### 二. git remote
 #### 1.git remote
 为了便于管理，Git要求每个远程主机都必须指定一个主机名。git remote命令就用于管理主机名。
 不带选项的时候，git remote命令列出所有远程主机。
