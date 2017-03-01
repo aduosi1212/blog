@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "git中fetch和pull的使用区别"
+title:  "git中的远程操作"
 date:   2017-02-24 17:05:00 +0800
 categories: "git"
 tag: ["commands"]
