@@ -64,17 +64,17 @@ Insert（或者按住D）键可以调整物体中心点， Modify->CenterPrivot�
   ```
   5. 自定义命令，右下角Script Editer, 选中所有命令文本，鼠标中键拖到Shelf里面，可以做一些简单的编辑就可以直接使用（这个牛逼），一些做好的模型可以直接记录下来，下次可以直接使用。
 
-  ##### 8. 自定义hotbox和hotkey：
+##### 8. 自定义hotbox和hotkey：
   1. Windows->Settings/Preferenes->Marking Menus Editer打开hotbox编辑器, Create Marking Menu新建一个Menu面板；
   2. 鼠标中键拖动Shilf中的命令到面板的各自里，各自右键可以编辑命令信息，可以用中文，还可以在相应的格子中新建一个子菜单，建完后起一个名字；
   3. 在Use marking menu in的下拉菜单选择一个使用方法，有Hotbox和Hotkey editer；
   4. 先说Hotbox，然后在出现的5个位置中选择一个，鼠标响应方式选一个， 就可以在主hotbox弹出后在相应的方向点击对应的鼠标响应方式就可以使用；
   5. 然后是hotkey，紧接第3步，选择Hotkey Editer，关闭，在Windows->Settings/Preferenes->Hotkey Editer, ，在Hotkey Editer面板的Edit Hotkeys For下拉菜单中选择Other Items，在出现的列表中选择User Marking Menus就会出现刚才定义的菜单，有Press和Release两个定义，点击在出现的输入框里输入你想要的hotkey，注意下面的提示，不要覆盖原先的hotkey，输入完成后保存，在工作区间按你刚指定的hotkey后鼠标左键点击就出现菜单了。
 
-    ##### 9. 曲线绘制基础：
-    1. 基本曲线，Create->Curve Tools可以绘制曲线，曲线在maya2017中有6种，除了bezier曲线外，其他标记在outliner中都一样，ep 曲线比较好用，曲线绘制错了，可以用Del或者Backspace回退删除，Esc删除整个曲线，过程中可以按Ins键进行调整，再按Ins键取消调整接着绘制，绘制完成后Enter结束；
-    2. 文字曲线Create->Type，可以生成文字曲线，在右边属性编辑栏可以编辑内容和信息；
-    3. Create->Adobe(R)Illustrator(R)Object...，这个用到ps的转存功能，在ps转存曲线路径为Illustrator，一个.ai文件，然后打开为曲线，可以使平面或者立体方式，ps中的paths是什么形状，创建出来的曲线就是什么形状；
-    *举个例子： 新建一个ps文档，用曲线选择工具选出一个轮廓区域，在右边paths（图层旁边）工作区底部菜单转存为路径，然后File->Export->paths to Illustrator转存为一个ai文件，再在maya中创建曲线*
-    4. 立体曲线功能，可以自动生成。
-    5. 曲线编辑，上下左右键可以挨个选择曲线的点，可以理顺先后关系（比如打结）。
+##### 9. 曲线绘制基础
+  1. 基本曲线，Create->Curve Tools可以绘制曲线，曲线在maya2017中有6种，除了bezier曲线外，其他标记在outliner中都一样，ep 曲线比较好用，曲线绘制错了，可以用Del或者Backspace回退删除，Esc删除整个曲线，过程中可以按Ins键进行调整，再按Ins键取消调整接着绘制，绘制完成后Enter结束；
+  2. 文字曲线Create->Type，可以生成文字曲线，在右边属性编辑栏可以编辑内容和信息；
+  3. Create->Adobe(R)Illustrator(R)Object...，这个用到ps的转存功能，在ps转存曲线路径为Illustrator，一个.ai文件，然后打开为曲线，可以使平面或者立体方式，ps中的paths是什么形状，创建出来的曲线就是什么形状；
+  *举个例子： 新建一个ps文档，用曲线选择工具选出一个轮廓区域，在右边paths（图层旁边）工作区底部菜单转存为路径，然后File->Export->paths to Illustrator转存为一个ai文件，再在maya中创建曲线*
+  4. 立体曲线功能，可以自动生成。
+  5. 曲线编辑，上下左右键可以挨个选择曲线的点，可以理顺先后关系（比如打结）。
