@@ -28,7 +28,8 @@ public class PluginModuleName : ModuleRules
 }
 ```
 #### 2.项目中加载该模块
-##### 包含头文件目录
+##### 包含头文件目录， 把插件Type改成Runtime（这个貌似很关键，之前没注意）
+
 ```js
 PublicIncludePaths.AddRange(
        new string[] {
@@ -193,6 +194,15 @@ if (JNIEnv* Env = FAndroidApplication::GetJavaEnv())
   Env->DeleteLocalRef(ConsumeArray);
 }
 ```
+
+#### 5.虚幻4代码如果需要调用jni, 则必须包含模块 “Launch”
+```c#
+if (Target.Platform == UnrealTargetPlatform.Android)
+{
+    PrivateDependencyModuleNames.AddRange(new string[] { "Launch" });
+}
+```
+
 
 ----
 
