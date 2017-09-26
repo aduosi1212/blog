@@ -11,7 +11,7 @@ tag: ["android", "packet"]
 {:toc}
 
 记录虚幻4中android打包所遇到的一些错误和问题。
-- 1. android sdk 环境变量错误
+- 1  android sdk 环境变量错误
 ```js
 UATHelper: 打包 (Android (ETC1)): UnrealBuildTool: The "android" command is no longer available.
 UATHelper: 打包 (Android (ETC1)): UnrealBuildTool: For manual SDK and AVD management, please use Android Studio.
@@ -20,3 +20,10 @@ UATHelper: 打包 (Android (ETC1)): UnrealBuildTool: tools\bin\sdkmanager.bat an
 UATHelper: 打包 (Android (ETC1)): UnrealBuildTool: ERROR: D:/NVPACK/android-sdk-windows/tools/android.bat failed with args --silent update lib-project --path JavaLibs/downloader_library --target android-19
 ```
 之前用ue4自带的CodeWorksforAndroid安装了android的sdk，后面装了android studio之后把android-sdk-windows/tools/android.bat篡改了。你妹的android studio不允许命令启动sdk和avd管理程序，必须从android studio启动。
+
+
+- 2 JNI DETECTED ERROR IN APPLICATION: GetStringUTFChars received NULL jstring会引起程序崩溃：  
+Jni 字符转换GetStringUTFChars()函数的传入参数不能是NULL.
+
+- 3 应用名显示不出来：
+原因还没找到，更新旧的string.xml就好了

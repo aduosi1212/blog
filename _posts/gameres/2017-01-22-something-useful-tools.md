@@ -10,7 +10,11 @@ tag: ["game tools"]
 {:toc}
 
 ##### 二、编程开发资源：
-- 1. 一个很好的开发者pdf书籍网站：http://www.finelybook.com
+- 1.一个很好的开发者pdf书籍网站：http://www.finelybook.com
+
+##### 二、资源学习网站：  
+- 1.voxel地形学习网站 https://garvinized.com/
+- 2.Tom Looman http://www.tomlooman.com/blog/
 
 ##### 一、模型破解工具
 
