@@ -103,19 +103,19 @@ SourceTree 的作者斯蒂夫·斯特里廷和其他几个同事使用 P4Merge �
 ##### 9. meld
 meld 是用 GTK+ 和 Python 开发的，也是已经存在了很久的工具，被提到了几次。
 
-10. tig for status + diff
+##### 10. tig for status + diff
 更多喜欢终端的人使用 tig （我们之前写过 tig 的一篇介绍），再加上 “ git diff ”。
 
-11. OS X 下的 FileMerge 即 opendiff
+##### 11. OS X 下的 FileMerge 即 opendiff
 在长长的建议列表里，有几个开发者提到了 OS X 下原生的“opendiff”工具，或者叫做“FileMerge”。
 
-12. diffmerge
+##### 12. diffmerge
 我并不知道 diffmerge 这个工具，不过在列表里也被提到了。
 
-13. Araxis Merge (商业版)
+##### 13. Araxis Merge (商业版)
 Araxis Merge 这个名字让我想起了很久以前。那时，我在一台 Windows 机器上一堆让人抓狂的 XML 文件中垂死挣扎，而这个工具证明了它可以经受住这个挑战。它是个商业软件。
 
-14. vimdiff3
+##### 14. vimdiff3
 有几个同事用 vimdiff 来解决冲突，那是 vim 自带的合并/差异分析 工具，你可以这样设置：      
 
 ```js
