@@ -15,6 +15,13 @@ tag: ["game tools"]
 ##### 二、资源学习网站：  
 - 1.voxel地形学习网站 https://garvinized.com/
 - 2.Tom Looman http://www.tomlooman.com/blog/
+- 3.织梦网(CG) http://www.cgdream.com.cn/
+- 4.微元素 http://www.element3ds.com/
+- 5.致学网 http://www.ibcde.com/
+- 6.cg教学网 http://www.cgyaojiaohai.com
+
+- 7.https://thenewboston.com
+- 8.https://www.tfmstyle.com/everydays  （有用的网站）
 
 ##### 一、模型破解工具
 
@@ -22,3 +29,11 @@ doa5的文件格式：TMC、TMCL 模型工具，包换骨骼， MPM 动作文件
 
 doa5的一些模型破解工具:   
 https://www.undertow.club/threads/doa5lr-modding-tools-updated-april-24-2017.7995/
+
+##### 三、外挂工具
+
+- 1.MPGH: https://www.mpgh.net/
+- 2.https://www.unknowncheats.me/forum/index.php
+
+
+密码暂存：www.rr-sc.com-ADE75FE2A881B3CCE38AE873F10D9202（人体肌肉骨骼完全解剖教程+3D模型合辑）

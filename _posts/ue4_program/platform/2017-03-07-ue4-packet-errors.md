@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "虚幻4android打包的一些错误"
+title:  "虚幻4打包的一些错误"
 date:   2017-03-07 15:05:00 +0800
 categories: "ue4"
 tag: ["android", "packet"]
@@ -9,6 +9,8 @@ tag: ["android", "packet"]
 
 * content
 {:toc}
+
+#### 1. Android
 
 记录虚幻4中android打包所遇到的一些错误和问题。
 - 1  android sdk 环境变量错误
@@ -27,3 +29,11 @@ Jni 字符转换GetStringUTFChars()函数的传入参数不能是NULL.
 
 - 3 应用名显示不出来：
 原因还没找到，更新旧的string.xml就好了
+
+#### 1. IOS
+Failed to run init commands on 192.168.1.***. Output = ***
+Failed to initialize a connection to the Remote Server 192.168.1.***
+
+解决方法1：bUseRSync=False 改为False，不用ssh协议
+解决方法2：http://blog.unreal-mobile.com/remote-build-on-ios-windows-10-to-xcode-9-arkit-project/ 这篇文章，还没试过
+

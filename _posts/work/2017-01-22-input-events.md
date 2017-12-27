@@ -10,6 +10,11 @@ tag: ["input","events"]
 * content
 {:toc}
 
+Android的输入起始位置：LaunchAndroid.cpp， HandleInputCB；       
+Android的输入接口：AndroidInputInterface.cpp，FAndroidInputInterface::SendControllerEvents()；
+输入绑定分发：UPlayerInput::ProcessInputStack；
+绑定时间分开：UGameViewportClient::InputKey
+
 ###### 1. 虚幻4各个平台的输入事件分发的开始点位置，LaunchEngineLoop.cpp文件中：
 ```c++
 void FEngineLoop::Tick()
