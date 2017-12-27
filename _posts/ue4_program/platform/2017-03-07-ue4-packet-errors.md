@@ -31,9 +31,9 @@ Jni 字符转换GetStringUTFChars()函数的传入参数不能是NULL.
 原因还没找到，更新旧的string.xml就好了
 
 #### 1. IOS
-Failed to run init commands on 192.168.1.***. Output = ***
+Failed to run init commands on 192.168.1.***. Output = ***   
 Failed to initialize a connection to the Remote Server 192.168.1.***
 
-解决方法1：bUseRSync=False 改为False，不用ssh协议
+解决方法1：bUseRSync=False 改为False，不用ssh协议   
 解决方法2：http://blog.unreal-mobile.com/remote-build-on-ios-windows-10-to-xcode-9-arkit-project/ 这篇文章，还没试过
 
