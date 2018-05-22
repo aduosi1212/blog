@@ -23,17 +23,38 @@ tag: ["game tools"]
 - 7.https://thenewboston.com
 - 8.https://www.tfmstyle.com/everydays  （有用的网站）
 
-##### 一、模型破解工具
+- 9.https://www.disneyanimation.com/technology/opensource(迪士尼开源工具)
+
+- 10.https://www.pinterest.com/(建模资源教程)
+
+
+- 11.https://www.slideshare.net/EpicGamesJapan/presentations(小日本的一个牛逼虚幻4教学频道)
+- 12.https://blog.ch-wind.com/(风烛之月博客)
+
+- 13.https://opengameart.org/(2D资源网)
+
+##### 三、模型破解工具
 
 doa5的文件格式：TMC、TMCL 模型工具，包换骨骼， MPM 动作文件
 
 doa5的一些模型破解工具:   
 https://www.undertow.club/threads/doa5lr-modding-tools-updated-april-24-2017.7995/
 
-##### 三、外挂工具
+http://peach.tk/DOA5LR
+
+##### 四、外挂工具
 
 - 1.MPGH: https://www.mpgh.net/
 - 2.https://www.unknowncheats.me/forum/index.php
+
+
+##### 五、声音文件
+BBC16000多种音效文件
+http://bbcsfx.acropolis.org.uk/
+
+##### 六、灯光
+- 1.官方灯光师教程
+    http://timhobsonue4.snappages.com/home.htm
 
 
 密码暂存：www.rr-sc.com-ADE75FE2A881B3CCE38AE873F10D9202（人体肌肉骨骼完全解剖教程+3D模型合辑）

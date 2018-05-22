@@ -103,3 +103,6 @@ Pipe     | $1
     <source id="ogv" src="http://media.w3.org/2010/05/sintel/trailer.ogv" type="video/ogg">
     <p>Your user agent does not support the HTML5 Video element.</p>
 </video>
+
+
+sudo ssserver -c /etc/ss-conf.json -d start
